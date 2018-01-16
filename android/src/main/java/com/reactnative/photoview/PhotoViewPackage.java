@@ -15,11 +15,6 @@ import java.util.List;
  * @version 1.0
  */
 public class PhotoViewPackage implements ReactPackage {
-    // Deprecated from RN 0.47
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-        return Collections.emptyList();
-    }
-
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         List<ViewManager> viewManagers = new ArrayList<>();
